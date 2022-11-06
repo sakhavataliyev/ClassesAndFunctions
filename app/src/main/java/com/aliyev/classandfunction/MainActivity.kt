@@ -23,15 +23,15 @@ class MainActivity : AppCompatActivity() {
 
         //Class
 
-        val homer = Simpson()
+        val homer = Simpson(27, "Aliyev", "Developer")
 
 //    Object and Instance
 
-        homer.age = 26
+      /*  homer.age = 26
         homer.name = "Aliyev"
-        homer.work = "Nuclear"
-
-        println(homer.name + " " + homer.age + " " + homer.work )
+        homer.job = "Nuclear"
+*/
+        println(homer.name + " " + homer.age + " " + homer.job )
 
     }
 
