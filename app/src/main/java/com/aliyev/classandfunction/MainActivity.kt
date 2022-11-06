@@ -21,6 +21,18 @@ class MainActivity : AppCompatActivity() {
 //            println("Clicked set")
 //        }
 
+        //Class
+
+        val homer = Simpson()
+
+//    Object and Instance
+
+        homer.age = 26
+        homer.name = "Aliyev"
+        homer.work = "Nuclear"
+
+        println(homer.name + " " + homer.age + " " + homer.work )
+
     }
 
 //  Input - Return
@@ -37,6 +49,9 @@ class MainActivity : AppCompatActivity() {
     fun helloKotlin(view: View) {
         textView.text = "Change Hello Kotlin"
     }
+
+
+
 
 
 }
